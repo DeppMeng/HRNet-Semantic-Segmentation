@@ -167,7 +167,6 @@ def main():
                         ignore_label=config.TRAIN.IGNORE_LABEL,
                         base_size=config.TEST.BASE_SIZE,
                         crop_size=test_size,
-                        center_crop_test=config.TEST.CENTER_CROP_TEST,
                         downsample_rate=1)
 
     if distributed:
