@@ -10,8 +10,8 @@ PRINT_FREQ: 100
 
 DATASET:
   DATASET: pascal_ctx
-  ROOT: 'data/'
-  TEST_SET: 'testval'
+  ROOT: '../data/'
+  TEST_SET: 'val'
   TRAIN_SET: 'train'
   NUM_CLASSES: 59
 MODEL:
